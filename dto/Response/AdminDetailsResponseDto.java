@@ -1,0 +1,16 @@
+package com.eshop.sonny.dto.Response;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class AdminDetailsResponseDto {
+
+    private String userName;
+    private String email;
+    private String phoneNumber;
+
+}
